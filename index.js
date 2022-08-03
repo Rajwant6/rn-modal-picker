@@ -370,9 +370,9 @@ const styles = StyleSheet.create({
   pickerTitleContainerStyle: {
     flexDirection: "row",
     width: "100%",
-    alignItems: "flex-end",
-    justifyContent: "flex-end",
-    alignSelf: "flex-end"
+    // alignItems: "flex-end",
+    // justifyContent: "flex-end",
+    // alignSelf: "flex-end"
   },
   searchBarContainerStyle: {
     marginBottom: 10,
@@ -436,7 +436,9 @@ const styles = StyleSheet.create({
     // justifyContent: "flex-start",
     position: 'absolute',
     alignSelf: "flex-end",
-    top: -4,
+    top: 5,
+    left: 0,
+    right: 5,
   },
 
   listDataContainerStyle: {
@@ -455,9 +457,10 @@ const styles = StyleSheet.create({
   },
 
   pickerTitleTextStyle: {
+    width: '85%',
     fontSize: 16,
     marginTop: 12,
-    flex: 1,
+    // flex: 1,
     paddingBottom: 10,
     marginLeft: 10,
     color: "#000",
