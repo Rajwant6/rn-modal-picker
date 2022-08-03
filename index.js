@@ -430,12 +430,13 @@ const styles = StyleSheet.create({
   crossImageStyle: {
     width: 40,
     height: 40,
-    marginTop: -4,
-
-    marginRight: -7,
-    alignItems: "flex-end",
-    justifyContent: "flex-start",
-    alignSelf: "flex-end"
+    // marginTop: -4,
+    // marginRight: -7,
+    // alignItems: "flex-end",
+    // justifyContent: "flex-start",
+    position: 'absolute',
+    alignSelf: "flex-end",
+    top: -4,
   },
 
   listDataContainerStyle: {
@@ -454,10 +455,11 @@ const styles = StyleSheet.create({
   },
 
   pickerTitleTextStyle: {
-    fontSize: 18,
+    fontSize: 16,
+    marginTop: 12,
     flex: 1,
     paddingBottom: 10,
-    marginLeft: 40,
+    marginLeft: 10,
     color: "#000",
     textAlign: "center"
   }
